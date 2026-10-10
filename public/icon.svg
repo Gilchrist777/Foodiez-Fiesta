@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Rich Obsidian Black Radial Gradient -->
+    <radialGradient id="ffBgDark" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1A1816" />
+      <stop offset="65%" stop-color="#0E0D0C" />
+      <stop offset="100%" stop-color="#050505" />
+    </radialGradient>
+
+    <!-- Imperial Metallic Gold Gradient (Linear) -->
+    <linearGradient id="ffGoldMetallic" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3C4" />
+      <stop offset="25%" stop-color="#F5D061" />
+      <stop offset="50%" stop-color="#E6B325" />
+      <stop offset="75%" stop-color="#C5991D" />
+      <stop offset="100%" stop-color="#8C6B12" />
+    </linearGradient>
+
+    <!-- Bright Core Gold Gradient -->
+    <linearGradient id="ffGoldBright" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#B8860B" />
+      <stop offset="50%" stop-color="#F5D061" />
+      <stop offset="100%" stop-color="#FFFBEB" />
+    </linearGradient>
+
+    <!-- Warm Amber Gold for Shadows & Details -->
+    <linearGradient id="ffGoldWarm" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#996515" />
+      <stop offset="50%" stop-color="#E6B325" />
+      <stop offset="100%" stop-color="#996515" />
+    </linearGradient>
+
+    <!-- Golden Glow Filter -->
+    <filter id="ffGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Deep Drop Shadow -->
+    <filter id="ffShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.8" />
+    </filter>
+
+    <!-- Circular Arcs for Text Paths -->
+    <!-- Top Arc (Clockwise for readable top text) -->
+    <path id="topTextArc" d="M 68 256 A 188 188 0 0 1 444 256" fill="none" />
+    <!-- Bottom Arc (Clockwise from left to right) -->
+    <path id="bottomTextArc" d="M 424 256 A 168 168 0 0 1 88 256" fill="none" />
+  </defs>
+
+  <!-- Base Black Badge Circle -->
+  <circle cx="256" cy="256" r="250" fill="url(#ffBgDark)" />
+
+  <!-- Outer Double Gold Rim -->
+  <circle cx="256" cy="256" r="246" fill="none" stroke="url(#ffGoldMetallic)" stroke-width="4" />
+  <circle cx="256" cy="256" r="236" fill="none" stroke="#F5D061" stroke-opacity="0.35" stroke-width="1.5" />
+
+  <!-- Decorative Beaded / Dotted Gold Ring -->
+  <circle cx="256" cy="256" r="226" fill="none" stroke="url(#ffGoldMetallic)" stroke-width="3" stroke-dasharray="6 8" />
+  <circle cx="256" cy="256" r="216" fill="none" stroke="url(#ffGoldMetallic)" stroke-width="2.5" />
+
+  <!-- Top Arched Text: FOODIEZ FIESTA -->
+  <text fill="url(#ffGoldBright)" font-family="system-ui, -apple-system, 'Cinzel', 'Playfair Display', Georgia, serif" font-size="34" font-weight="900" letter-spacing="7" filter="url(#ffShadow)">
+    <textPath href="#topTextArc" startOffset="50%" text-anchor="middle">
+      FOODIEZ FIESTA
+    </textPath>
+  </text>
+
+  <!-- Left & Right Flanking Accent Stars -->
+  <g fill="url(#ffGoldBright)">
+    <!-- Left stars -->
+    <polygon points="92,238 95,246 103,246 96,251 99,259 92,254 85,259 88,251 81,246 89,246" transform="scale(0.85) translate(18, 22)" />
+    <polygon points="92,238 95,246 103,246 96,251 99,259 92,254 85,259 88,251 81,246 89,246" transform="scale(0.65) translate(48, 80)" />
+    <!-- Right stars -->
+    <polygon points="420,238 423,246 431,246 424,251 427,259 420,254 413,259 416,251 409,246 417,246" transform="scale(0.85) translate(64, 22)" />
+    <polygon points="420,238 423,246 431,246 424,251 427,259 420,254 413,259 416,251 409,246 417,246" transform="scale(0.65) translate(180, 80)" />
+  </g>
+
+  <!-- Center Decorative Ribbon / Divider Wings -->
+  <path d="M 110 270 Q 180 262 216 274 Q 180 278 110 270 Z" fill="url(#ffGoldMetallic)" opacity="0.8" />
+  <path d="M 402 270 Q 332 262 296 274 Q 332 278 402 270 Z" fill="url(#ffGoldMetallic)" opacity="0.8" />
+
+  <!-- Center Emblem Group -->
+  <g id="centerEmblem" filter="url(#ffShadow)">
+    <!-- Crossed Golden Cutlery (Fork and Spoon) behind hat -->
+    <!-- Fork (angled left to right) -->
+    <g transform="rotate(-32 256 220)">
+      <path d="M 253 140 L 253 285 Q 253 295 256 295 Q 259 295 259 285 L 259 140 Z" fill="url(#ffGoldMetallic)" />
+      <!-- Fork head & tines -->
+      <path d="M 246 138 C 246 156 250 166 256 168 C 262 166 266 156 266 138 L 263 138 L 263 154 L 259 154 L 259 138 L 257 138 L 257 154 L 253 154 L 253 138 Z" fill="url(#ffGoldBright)" />
+    </g>
+
+    <!-- Spoon (angled right to left) -->
+    <g transform="rotate(32 256 220)">
+      <path d="M 253 140 L 253 285 Q 253 295 256 295 Q 259 295 259 285 L 259 140 Z" fill="url(#ffGoldMetallic)" />
+      <!-- Spoon bowl -->
+      <ellipse cx="256" cy="144" rx="11" ry="16" fill="url(#ffGoldBright)" />
+      <ellipse cx="256" cy="145" rx="8" ry="12" fill="#0C0A09" opacity="0.4" />
+    </g>
+
+    <!-- Chef Hat Base Band (Gold Pleated Band) -->
+    <path d="M 206 206 C 206 201 216 199 256 199 C 296 199 306 201 306 206 L 303 226 C 303 230 293 232 256 232 C 219 232 209 230 209 226 Z" fill="url(#ffGoldMetallic)" stroke="#FFF3C4" stroke-width="1.5" />
+    
+    <!-- Band Vertical Lines -->
+    <line x1="226" y1="202" x2="225" y2="228" stroke="#8C6B12" stroke-width="1.5" />
+    <line x1="246" y1="200" x2="246" y2="231" stroke="#8C6B12" stroke-width="1.5" />
+    <line x1="266" y1="200" x2="266" y2="231" stroke="#8C6B12" stroke-width="1.5" />
+    <line x1="286" y1="202" x2="287" y2="228" stroke="#8C6B12" stroke-width="1.5" />
+
+    <!-- Chef Hat Main Puffs / Crown -->
+    <!-- Back puff shadows -->
+    <circle cx="230" cy="162" r="28" fill="url(#ffGoldWarm)" opacity="0.9" />
+    <circle cx="282" cy="162" r="28" fill="url(#ffGoldWarm)" opacity="0.9" />
+    
+    <!-- Side Main Puffs -->
+    <circle cx="204" cy="178" r="25" fill="url(#ffGoldMetallic)" />
+    <circle cx="308" cy="178" r="25" fill="url(#ffGoldMetallic)" />
+
+    <!-- Center High Puff -->
+    <circle cx="256" cy="148" r="32" fill="url(#ffGoldBright)" />
+    <circle cx="232" cy="164" r="26" fill="url(#ffGoldBright)" />
+    <circle cx="280" cy="164" r="26" fill="url(#ffGoldBright)" />
+
+    <!-- Puff Contour Highlights -->
+    <path d="M 190 190 C 182 170 200 152 216 156 C 220 138 244 122 256 122 C 268 122 292 138 296 156 C 312 152 330 170 322 190 C 314 204 306 206 304 206 L 208 206 C 206 206 198 204 190 190 Z" fill="url(#ffGoldBright)" opacity="0.95" />
+
+    <!-- Hat Front Sizzle Creases -->
+    <path d="M 234 160 Q 236 195 235 204" stroke="#B8860B" stroke-width="2.5" stroke-linecap="round" fill="none" />
+    <path d="M 256 148 Q 256 192 256 204" stroke="#B8860B" stroke-width="3" stroke-linecap="round" fill="none" />
+    <path d="M 278 160 Q 276 195 277 204" stroke="#B8860B" stroke-width="2.5" stroke-linecap="round" fill="none" />
+
+    <!-- Intertwined / Elegant Golden FF Monogram Emblem -->
+    <!-- Gold Monogram Plaque -->
+    <rect x="214" y="244" width="84" height="48" rx="14" fill="#0E0D0C" stroke="url(#ffGoldMetallic)" stroke-width="3" />
+    
+    <!-- Stylized "FF" text inside plaque -->
+    <text x="256" y="278" font-family="system-ui, -apple-system, 'Cinzel', serif" font-size="32" font-weight="900" fill="url(#ffGoldBright)" text-anchor="middle" letter-spacing="4">
+      FF
+    </text>
+
+    <!-- Mini Crown on top of Plaque -->
+    <path d="M 242 244 L 246 236 L 256 242 L 266 236 L 270 244 Z" fill="url(#ffGoldBright)" />
+  </g>
+
+  <!-- Bottom Banner Arc Plaque -->
+  <g id="bottomSection" filter="url(#ffShadow)">
+    <!-- Elegant Gold Curved Banner -->
+    <path d="M 126 348 C 170 376 256 388 342 376 C 386 348 376 340 376 340 C 316 358 256 360 196 358 C 136 340 126 348 126 348 Z" fill="url(#ffGoldMetallic)" opacity="0.3" />
+
+    <!-- Bottom Secondary Arched Text: STREET FOOD & BEVERAGES -->
+    <text fill="url(#ffGoldMetallic)" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="800" letter-spacing="4" text-anchor="middle">
+      <textPath href="#bottomTextArc" startOffset="50%" text-anchor="middle">
+        • STREET FOOD &amp; BEVERAGES •
+      </textPath>
+    </text>
+
+    <!-- Bottom Center Year Badge / Star -->
+    <g transform="translate(256, 386)">
+      <circle cx="0" cy="0" r="14" fill="#0C0A09" stroke="url(#ffGoldBright)" stroke-width="2" />
+      <polygon points="0,-7 2,-2 7,-2 3,2 5,7 0,4 -5,7 -3,2 -7,-2 -2,-2" fill="url(#ffGoldBright)" />
+    </g>
+
+    <text x="256" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#E6B325" text-anchor="middle" letter-spacing="3" opacity="0.9">
+      EST. 2024 • THE TASTE OF JOY
+    </text>
+  </g>
+
+  <!-- Sparkle Accents -->
+  <polygon points="170,140 173,130 183,127 173,124 170,114 167,124 157,127 167,130" fill="#FFFBEB" filter="url(#ffGlow)" />
+  <polygon points="340,140 343,130 353,127 343,124 340,114 337,124 327,127 337,130" fill="#FFFBEB" filter="url(#ffGlow)" />
+</svg>

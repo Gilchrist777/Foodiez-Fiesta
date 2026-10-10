@@ -1,0 +1,6 @@
+{
+  "name": "Foodiez Fiesta POS - Pushcart Kiosk Order & Sales Tracker",
+  "description": "Lightning-fast, offline-capable mobile PWA order noting and daily sales tracker for Foodiez Fiesta food kiosk with auto-saving, color-coded notes, and instant tallying.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

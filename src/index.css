@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --sat: env(safe-area-inset-top, 0px);
+  --sab: env(safe-area-inset-bottom, 0px);
+  --sal: env(safe-area-inset-left, 0px);
+  --sar: env(safe-area-inset-right, 0px);
+}
+
+/* iPhone Notch / Dynamic Island Safe Area Utilities */
+.safe-header-pt {
+  padding-top: max(env(safe-area-inset-top, 0px), 0.75rem);
+}
+
+.safe-footer-pb {
+  padding-bottom: max(env(safe-area-inset-bottom, 0px), 0.75rem);
+}
+
+.safe-fab-bottom {
+  bottom: max(calc(env(safe-area-inset-bottom, 0px) + 1.25rem), 1.25rem);
+}
