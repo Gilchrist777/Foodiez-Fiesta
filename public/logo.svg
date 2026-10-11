@@ -59,10 +59,10 @@
   <circle cx="256" cy="256" r="226" fill="none" stroke="url(#ffGoldMetallic)" stroke-width="3" stroke-dasharray="6 8" />
   <circle cx="256" cy="256" r="216" fill="none" stroke="url(#ffGoldMetallic)" stroke-width="2.5" />
 
-  <!-- Top Arched Text: FOODIEZ FIESTA -->
+  <!-- Top Arched Text: FOODIE'Z FIESTA -->
   <text fill="url(#ffGoldBright)" font-family="system-ui, -apple-system, 'Cinzel', 'Playfair Display', Georgia, serif" font-size="34" font-weight="900" letter-spacing="7" filter="url(#ffShadow)">
     <textPath href="#topTextArc" startOffset="50%" text-anchor="middle">
-      FOODIEZ FIESTA
+      FOODIE'Z FIESTA
     </textPath>
   </text>
 
@@ -148,9 +148,9 @@
     <path d="M 126 348 C 170 376 256 388 342 376 C 386 348 376 340 376 340 C 316 358 256 360 196 358 C 136 340 126 348 126 348 Z" fill="url(#ffGoldMetallic)" opacity="0.3" />
 
     <!-- Bottom Secondary Arched Text: STREET FOOD & BEVERAGES -->
-    <text fill="url(#ffGoldMetallic)" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="800" letter-spacing="4" text-anchor="middle">
+    <text fill="url(#ffGoldMetallic)" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="900" letter-spacing="8" text-anchor="middle">
       <textPath href="#bottomTextArc" startOffset="50%" text-anchor="middle">
-        • STREET FOOD &amp; BEVERAGES •
+        • ERODE •
       </textPath>
     </text>
 

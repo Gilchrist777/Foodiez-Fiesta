@@ -40,7 +40,7 @@ export const WhatsAppShareModal: React.FC<WhatsAppShareModalProps> = ({
       .join('\n');
 
     return (
-      `*🍢 FOODIEZ FIESTA - SALES REPORT*\n` +
+      `*🍢 FOODIE'Z FIESTA ERODE - SALES REPORT*\n` +
       `📅 *Date:* ${summary.date}\n` +
       `━━━━━━━━━━━━━━━━━━━━\n` +
       `💰 *TOTAL COLLECTION:* ${formatCurrency(summary.totalSales)}\n` +
@@ -50,7 +50,7 @@ export const WhatsAppShareModal: React.FC<WhatsAppShareModalProps> = ({
       (summary.pendingOrders > 0 ? `⚠️ *Pending Unpaid:* ${summary.pendingOrders}\n` : '') +
       `━━━━━━━━━━━━━━━━━━━━\n` +
       (topItemsStr ? `🔥 *Top Selling Items:*\n${topItemsStr}\n━━━━━━━━━━━━━━━━━━━━\n` : '') +
-      `_Foodiez Fiesta Mobile Kiosk POS_`
+      `_Foodie'z Fiesta Erode Mobile Kiosk POS_`
     );
   };
 

@@ -115,18 +115,18 @@ export const SplashIntro: React.FC<SplashIntroProps> = ({
         >
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#E6B325]/15 border border-[#E6B325]/30 text-[#F5D061] text-[11px] font-black tracking-widest uppercase mb-2 shadow-sm">
             <Sparkles className="w-3 h-3 text-[#F5D061] animate-spin" />
-            Pushcart Food Kiosk
+            Pushcart Food Kiosk • Erode
           </div>
 
           <h1 className="text-3xl sm:text-4xl font-extrabold tracking-wider text-[#F5F5F7] drop-shadow-2xl">
-            FOODIEZ{' '}
+            FOODIE&apos;Z{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F5D061] via-[#E6B325] to-[#B8860B]">
               FIESTA
             </span>
           </h1>
 
-          <p className="text-xs text-stone-400 font-medium tracking-wide mt-1">
-            Order Noting & Daily Sales POS
+          <p className="text-xs text-[#F5D061]/80 font-bold tracking-widest uppercase mt-1">
+            ERODE • Order Noting &amp; POS
           </p>
         </div>
       </div>

@@ -20,15 +20,15 @@ export const Header: React.FC<HeaderProps> = ({
           <div>
             <div className="flex items-center gap-1.5">
               <h1 className="text-base sm:text-lg font-extrabold tracking-tight text-[#F5F5F7] leading-none">
-                Foodiez <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F5D061] via-[#E6B325] to-[#B8860B]">Fiesta</span>
+                Foodie&apos;z <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F5D061] via-[#E6B325] to-[#B8860B]">Fiesta</span>
               </h1>
               <span className="hidden xs:inline-flex items-center gap-0.5 rounded-full bg-[#E6B325]/15 text-[#F5D061] px-2 py-0.5 text-[10px] font-bold border border-[#E6B325]/25">
                 <Store className="w-2.5 h-2.5" />
-                PUSHCART
+                ERODE
               </span>
             </div>
-            <p className="text-[10.5px] sm:text-[11px] text-stone-400 font-medium tracking-wide">
-              Daily Kiosk POS & Sales
+            <p className="text-[10.5px] sm:text-[11px] text-[#F5D061]/80 font-medium tracking-wide">
+              Pushcart Food Kiosk • Daily POS
             </p>
           </div>
         </div>

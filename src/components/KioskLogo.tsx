@@ -112,17 +112,17 @@ export const KioskLogo: React.FC<KioskLogoProps> = ({
         />
         <circle cx="256" cy="256" r="216" fill="none" stroke="url(#kioskGoldMetallic)" strokeWidth="2.5" />
 
-        {/* Top Arched Text: FOODIEZ FIESTA */}
+        {/* Top Arched Text: FOODIE'Z FIESTA */}
         <text
           fill="url(#kioskGoldBright)"
           fontFamily="system-ui, -apple-system, sans-serif"
-          fontSize="34"
+          fontSize="33"
           fontWeight="900"
-          letterSpacing="7"
+          letterSpacing="6"
           filter="url(#kioskDropShadow)"
         >
           <textPath href="#kioskTopTextArc" startOffset="50%" textAnchor="middle">
-            FOODIEZ FIESTA
+            FOODIE'Z FIESTA
           </textPath>
         </text>
 
@@ -184,9 +184,9 @@ export const KioskLogo: React.FC<KioskLogoProps> = ({
         {/* Bottom Section */}
         <g filter="url(#kioskDropShadow)">
           <path d="M 126 348 C 170 376 256 388 342 376 C 386 348 376 340 376 340 C 316 358 256 360 196 358 C 136 340 126 348 126 348 Z" fill="url(#kioskGoldMetallic)" opacity="0.3" />
-          <text fill="url(#kioskGoldMetallic)" fontFamily="system-ui, -apple-system, sans-serif" fontSize="16" fontWeight="800" letterSpacing="4">
+          <text fill="url(#kioskGoldMetallic)" fontFamily="system-ui, -apple-system, sans-serif" fontSize="24" fontWeight="900" letterSpacing="8">
             <textPath href="#kioskBottomTextArc" startOffset="50%" textAnchor="middle">
-              • STREET FOOD &amp; BEVERAGES •
+              • ERODE •
             </textPath>
           </text>
 

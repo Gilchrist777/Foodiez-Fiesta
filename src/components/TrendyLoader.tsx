@@ -8,7 +8,7 @@ interface TrendyLoaderProps {
 }
 
 export const TrendyLoader: React.FC<TrendyLoaderProps> = ({
-  message = 'Loading Foodiez Fiesta...',
+  message = "Loading Foodie'z Fiesta Erode...",
   size = 'md',
   customLogoUrl = null,
 }) => {
